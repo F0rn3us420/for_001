@@ -11,6 +11,12 @@ package com.mycompany.for_001;
 public class For_001 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int pares [] =  {2, 4, 6, 8, 10, 12, 14, 16};
+       
+       for (int i=2; i< pares.length; i++){
+           System.out.println(pares [i]);
+       }
     }
+
 }
+
